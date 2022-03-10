@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CFILE -g -c
+gcc cc -c $CFILE  -o obj/$CFILE

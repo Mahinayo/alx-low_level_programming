@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc cc -c $CFILE  -o obj/$CFILE
+gcc  cc -c $CFILE  -o 

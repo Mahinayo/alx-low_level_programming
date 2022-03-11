@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  *main - entry point
  *
  *Return: 0 must be return after the output

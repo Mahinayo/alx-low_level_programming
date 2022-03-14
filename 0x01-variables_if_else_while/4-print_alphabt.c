@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print alphabets without e and q
+ *main - print alphabets without e and q
  *
- * Retunr: always 0
+ *Retunr: always 0
  */
 int main(void)
 {

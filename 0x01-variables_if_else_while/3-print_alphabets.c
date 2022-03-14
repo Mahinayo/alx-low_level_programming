@@ -1,20 +1,18 @@
 #include <stdio.h>
 /**
- * main - print alphabets
+ *main - print alphabets
  *
- * Return: always 0
+ *Return: always 0
  */
 int main(void)
 {
-char lowwer_case;
-char upper_case;
-for (upper_case = ' A ' ; upper_case <= ' Z ' ; upper_case++)
+char c;
+for (c = 'a'; c <= 'z'; c++)
+putchar (c);
 {
-putchar(upper_case'\n');
+for (c = 'A'; c <= 'Z'; c++)
+putchar (c);
 }
-for (lower_case = ' a ' ; lower_case <= ' z ' ; lower_case++)
-{
-putchar(lower_case'\n');
+putchar ('\n');
 return (0);
-}
 }

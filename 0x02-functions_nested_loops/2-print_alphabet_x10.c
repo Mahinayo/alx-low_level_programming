@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  * main - print alphabet 10x
  *
@@ -11,9 +11,7 @@ char b;
 for (a = 0 ; a < 10 ; a++)
 {
 for (b = 'a' ; b <= 'z' ; b++)
-{
-putchar (b);
-}
-putchar ('\n');
+_putchar (b);
+_putchar ('\n');
 }
 }

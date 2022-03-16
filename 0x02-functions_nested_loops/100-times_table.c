@@ -16,7 +16,7 @@ for (b = 0 ; b <= n ; b++)
 c = a * b;
 if (b != 0)
 {
-_putchar (',');
+_putchar (' ');
 _putchar (' ');
 }
 else

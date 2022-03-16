@@ -34,14 +34,12 @@ _putchar ((c / 10) + '0');
 _putchar ((c % 10) + '0');
 }
 else
-if (c >= 100 && b != 0)
+(c >= 100 && b != 0)
 {
 _putchar ((c / 100) + '0');
 _putchar ((c / 10) % 10 + '0');
 _putchar ((c % 10) + '0');
 }
-else
-_putchar ((c % 10) + '0');
 }
 _putchar ('\n');
 }

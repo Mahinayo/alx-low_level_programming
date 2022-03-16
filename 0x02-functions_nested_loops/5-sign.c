@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  *print_sign - return 1 and print +
  *@n: take char

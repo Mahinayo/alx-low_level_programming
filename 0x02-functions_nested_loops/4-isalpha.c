@@ -4,7 +4,7 @@
  * @c: take char
  * Return: 0 if it is not alpha
  */
-int _isalpha(int c
+int _isalpha(int c)
 {
 if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 {

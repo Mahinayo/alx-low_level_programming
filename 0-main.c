@@ -1,0 +1,12 @@
+#include "main.h"
+/**
+ * main - main
+ * Return: always 0
+ */
+int main(void)
+{
+int i;
+i = 0;
+positive_or_negative(void);
+return (0);
+}

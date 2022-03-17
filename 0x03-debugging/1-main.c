@@ -9,12 +9,15 @@ int i;
 
 printf("Infinite loop incoming :(\n");
 
-i = /**
- *while (i < 0)
- *{
- *Indinite loop - no increment on the value
- *putchar(i);
- *}
+i = 0;
+
+
+/*
+ * while (i < 10)
+ * {
+ * Infinite loop - no increment on the value
+ * putchar(i);
+ * }
  */
 printf("Infinite loop avoided! \\o/\n");
 return (0);

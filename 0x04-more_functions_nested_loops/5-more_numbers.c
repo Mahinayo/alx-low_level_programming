@@ -17,7 +17,7 @@ while (i < 10)
 {
 while (r <= 14)
 {
-if (r <= 10)
+if (r < 10)
 {
 s = r;
 }

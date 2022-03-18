@@ -16,7 +16,7 @@ continue;
 }
 else
 {
-putchar (i + '0');
+putchar ('i');
 putchar ('\n');
 }
 }

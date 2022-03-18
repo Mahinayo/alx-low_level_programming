@@ -24,6 +24,9 @@ else if (i % 5 == 0)
 {
 if (i < x)
 printf("Buzz ");
+
+else
+printf("Buzz");
 }
 else
 {

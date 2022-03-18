@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio,h>
+#include <stdio.h>
 /**
  * print_square - print a square
  * @size: the no of size

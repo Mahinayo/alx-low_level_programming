@@ -13,6 +13,7 @@ int d;
 int p;
 if  (size > 0)
 {
+d = size - i;
 for (i = 0 ; i < size ; i++)
 {
 for (z = d ; z > 0 ; z--)

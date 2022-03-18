@@ -8,17 +8,30 @@
 void more_numbers(void)
 {
 int i;
-int n;
-for (n = 1 ; n <= 10 ; n++)
+int f;
+int s;
+int r;
+i = 0;
+r = 0;
+while (i < 10)
 {
-for (i = 0 ; i <= 14 ; i++)
+while (r <= 14)
 {
-if (n <= 10)
+if (r <= 10)
 {
-putchar (i / 10 + '0');
+s = r;
 }
-putchar (i % 10 + '0');
+else
+{
+f = r / 10;
+s = r % 10;
+putchar (f + '0');
 }
+putchar (s + '0');
+r++;
+}
+i++;
+r = 0;
 putchar ('\n');
 }
 }

@@ -18,6 +18,7 @@ j += i;
 while (j < i)
 {
 putchar(str[j]);
+j++;
 }
 putchar('\n');
 }

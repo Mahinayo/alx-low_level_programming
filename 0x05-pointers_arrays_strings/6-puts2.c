@@ -11,7 +11,7 @@ int i;
 int a;
 i = 0;
 a = 0;
-while(str[i++]);
+while(str[i++])
 {
 a++;
 }

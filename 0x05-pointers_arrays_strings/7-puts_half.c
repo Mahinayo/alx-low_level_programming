@@ -14,7 +14,7 @@ while (str[i])
 i++;
 j = i / 2;
 if (i % 2)
-j += i;
+j += 1;
 while (j < i)
 {
 putchar(str[j]);

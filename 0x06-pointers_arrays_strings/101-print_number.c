@@ -7,7 +7,8 @@
  */
 int base10(int n)
 {
-int base = 10;
+int base;
+base = 10;
 while (n > 0)
 {
 base *= 10;

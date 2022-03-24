@@ -24,7 +24,7 @@ return (base);
 void print_number(int n)
 {
 int power;
-power = base10(n);
+power = base10(10);
 if (n < 0)
 {
 putchar('-');

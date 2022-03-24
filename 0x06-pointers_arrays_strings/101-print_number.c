@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * base10 - base 10
  * @n: int

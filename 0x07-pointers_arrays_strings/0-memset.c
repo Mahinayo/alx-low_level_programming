@@ -1,9 +1,8 @@
-#include "main.h"
+#include "main.h" 
+
 /**
- * _memset - memory
- * @s: char s
  * @b: char b
- * @n: int n
+ *@n: int n
  * Return: pointer
  */
 char *_memset(char *s, char b, unsigned int n)

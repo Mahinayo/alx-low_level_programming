@@ -8,15 +8,22 @@
 char *_strstr(char *haystack, char *needle)
 {
 unsigned int i, j;
-for (i = 0 ; s[i] ; i++)
+while (haystack[i])
 {
-for (j = 0 ; accept[j] ; j++)
+while (needle[j] && (haystack[i] == needle[0]))
 {
-if (s[i] == accept[j])
+if (haystack[i + j] == needle[j])
+j++;
+else
 break;
 }
-if (accept[j])
-return (s + i);
+if (needle[j])
+{
+i++;
+j = 0;
+}
+else
+return (haystack + i);
 }
 return (0);
 }

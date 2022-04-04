@@ -5,7 +5,6 @@
  *
  * Return: 0
  */
-int main(void)
 {
 int argc;
 printf("%d\n", argc);

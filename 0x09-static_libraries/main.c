@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - main
- *
+ * _puts - main
+ *@s: char a
  * Return: 0
  */
-int main(void)
+void _puts(char *s)
 {
-puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
-return (0);
+_puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
 }

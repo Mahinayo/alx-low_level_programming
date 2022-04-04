@@ -2,11 +2,16 @@
 #include <stdio.h>
 /**
  * main - main
- *
- * Return: 0
+ * @argc: argc
+ * @argv: argv
+ * Return:0
  */
+int main(int argc, char** argv)
 {
-int argc;
-printf("%d\n", argc);
+int i;
+for (i = 0 ; i < argc ; i++)
+{
+printf("%s\n", argv[i]);
+}
 return (0);
 }

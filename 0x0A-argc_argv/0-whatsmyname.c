@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - main
- *@agrc: argc
+ *@argc: argc
  *@argv: argv
  * Return: 0
  */

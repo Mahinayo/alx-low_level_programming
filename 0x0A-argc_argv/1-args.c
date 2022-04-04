@@ -3,9 +3,10 @@
 /**
  * main - main
  *@argc: argc
+ *@argv: argv
  * Return: 0
  */
-int main(int argc)
+int main(int argc, char* argv[])
 {
 printf("%d\n", argc);
 return (0);

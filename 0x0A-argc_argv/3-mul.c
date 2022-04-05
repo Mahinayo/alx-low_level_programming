@@ -17,7 +17,7 @@ if (argc > 1)
 for (i = 1 ; i < argc ; i++)
 x = atoi(argv[1]);
 y = atoi(argv[2]);
-mul = x * y;
+mul = (x *y);
 printf("%d\n", mul);
 }
 else

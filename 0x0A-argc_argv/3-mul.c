@@ -12,13 +12,18 @@ int i;
 int x;
 int y;
 int mul;
-for (i = 1 ; i < 3 ; i++)
+if (argc > 1)
 {
+for (i = 1 ; i < argc ; i++)
 x = atoi(argv[1]);
 y = atoi(argv[2]);
 mul = x * y;
-printf("%d", mul);
+printf("%d\n", mul);
 }
-printf("\n");
+else
+{
+printf("ERROR\n");
+return (1);
+}
 return (0);
 }

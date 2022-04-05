@@ -8,7 +8,11 @@
  */
 int main(int argc, char **argv)
 {
+int i;
+int a;
+for (i = 0; i < argc ; i++)
+a = i;
+printf("%d\n", a);
 (void)argv;
-printf("%d\n", argc);
 return (0);
 }

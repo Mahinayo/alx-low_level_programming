@@ -9,18 +9,16 @@
 int main(int argc, char *argv[])
 {
 int i;
+int x;
+int y;
 int mul;
-mul = 0;
-if (argc > 2)
+for (i = 1 ; i < 3 ; i++)
 {
-printf("ERROR\n");
-return (1);
+x = atoi(argv[1]);
+y = atoi(argv[2]);
+mul = x * y;
+printf("%d", mul);
 }
-else
-{
-for (i = 1 ; i < argc ; i++)
-mul = mul * atoi(argv[i]);
-printf("%d\n", mul);
+printf("\n");
 return (0);
-}
 }

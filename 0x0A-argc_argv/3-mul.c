@@ -23,6 +23,6 @@ printf("%d\n", mul);
 else
 {
 printf("ERROR\n");
-return (1);
 }
+return (1);
 }

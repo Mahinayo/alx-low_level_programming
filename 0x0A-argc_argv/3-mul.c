@@ -12,6 +12,16 @@ int i;
 int x;
 int y;
 int mul;
+if (argc <= 1)
+{
+printf("Error\n");
+}
+else
+if (argc <= 3 && argc == 2)
+{
+printf("Error\n");
+}
+else
 if (argc > 1)
 {
 for (i = 1 ; i < argc ; i++)
@@ -20,10 +30,5 @@ y = atoi(argv[2]);
 mul = (x *y);
 printf("%d\n", mul);
 }
-else
-{
-printf("ERROR\n");
-}
-printf("\n");
 return (1);
 }

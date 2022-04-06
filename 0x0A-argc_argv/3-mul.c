@@ -24,5 +24,6 @@ else
 {
 printf("ERROR\n");
 }
+printf("\n");
 return (1);
 }

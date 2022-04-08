@@ -26,7 +26,7 @@ f = (float *) malloc(b * sizeof(float));
 {
 return (f);
 }
-d = (double *) malloc(b * sizeof(double));
+d = (double *) malloc(b * sizeof(INT_MAX));
 {
 return (d);
 }

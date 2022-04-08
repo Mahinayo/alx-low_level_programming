@@ -33,5 +33,4 @@ return (a);
 free(c);
 free(i);
 free(f);
-free(d);
 }

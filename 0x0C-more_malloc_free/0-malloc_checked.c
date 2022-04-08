@@ -22,7 +22,7 @@ i = (int *) malloc(b * sizeof(int));
 {
 return (i);
 }
-f = (float *) malloc(b * sizeof(float));
+f = (float *) malloc(b * sizeof(flot));
 {
 return (f);
 }

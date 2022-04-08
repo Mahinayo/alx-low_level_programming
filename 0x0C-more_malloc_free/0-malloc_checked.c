@@ -24,15 +24,15 @@ return (i);
 }
 f = (float *) malloc(b * sizeof(float));
 {
-return (i);
+return (f);
 }
 d = (double *) malloc(b * sizeof(double));
 {
 return (d);
 }
-if (c == NULL || i == NULL || f == NULL)
-{
 a = (int *) malloc(sizeof("98"));
+if (c == NULL || i == NULL || f == NULL || d == NULL)
+{
 return (a);
 }
 free(c);

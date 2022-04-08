@@ -35,4 +35,8 @@ if (c == NULL || i == NULL || f == NULL || d == NULL)
 a = (int *) malloc(sizeof("98"));
 return (a);
 }
+free(c);
+free(i);
+free(f);
+free(d);
 }

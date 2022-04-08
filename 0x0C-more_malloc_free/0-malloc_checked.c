@@ -13,6 +13,7 @@ char *c;
 int *i;
 float *f;
 double *d;
+int *a;
 c = (char *) malloc(b * sizeof(char));
 {
 return (c);
@@ -28,5 +29,10 @@ return (f);
 d = (double *) malloc(b * sizeof(double));
 {
 return (d);
+}
+if (c == NULL || i == NULL || f == NULL || d == NULL)
+{
+a = (int *) malloc(sizeof("98"));
+return (a);
 }
 }

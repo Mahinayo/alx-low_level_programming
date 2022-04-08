@@ -12,7 +12,6 @@ void *malloc_checked(unsigned int b)
 char *c;
 int *i;
 float *f;
-double *d;
 int *a;
 c = (char *) malloc(b * sizeof(char));
 {
@@ -26,11 +25,7 @@ f = (float *) malloc(b * sizeof(float));
 {
 return (f);
 }
-d = (double *) malloc(INT_MAX);
-{
-return (d);
-}
-if (c == NULL || i == NULL || f == NULL || d == NULL)
+if (c == NULL || i == NULL || f == NULL)
 {
 a = (int *) malloc(sizeof("98"));
 return (a);

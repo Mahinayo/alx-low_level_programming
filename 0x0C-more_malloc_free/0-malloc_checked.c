@@ -13,16 +13,20 @@ char *c;
 int *i;
 float *f;
 double *d;
-c = (char*) malloc(b * sizeof(char));
+c = (char *) malloc(b * sizeof(char));
 {
 return (c);
 }
-i = (int*) malloc(b * sizeof(int));
+i = (int *) malloc(b * sizeof(int));
 {
 return (i);
 }
-f = (float*) malloc(f * sizeof(float));
+f = (float *) malloc(b * sizeof(float));
 {
 return (f);
+}
+d = (double *) malloc(b * sizeof(double));
+{
+return (d);
 }
 }

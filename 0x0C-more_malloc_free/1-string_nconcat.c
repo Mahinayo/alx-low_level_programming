@@ -29,7 +29,7 @@ s1[j] = s2[i];
 }
 s1[j] = '\0';
 return (s1);
-if (j >= i)
+if (s1[j] >= s2[i])
 {
 putchar(s2[i]);
 }

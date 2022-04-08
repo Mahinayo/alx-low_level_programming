@@ -20,5 +20,5 @@ for (i = 0 ; s2[i] != '\0' ; ++i, ++n)
 s1[n] = s2[i];
 }
 s1[n] = '\0';
-return(s1);
+return (s1);
 }

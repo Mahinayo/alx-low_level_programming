@@ -3,9 +3,9 @@
 #include <stdlib.h>
 /**
  * alloc_grid - nested loop to make grid
- * @width: width 
- * @height: height 
- * Return: pointer 
+ * @width: width
+ * @height: height
+ * Return: pointer
  */
 int **alloc_grid(int width, int height)
 {

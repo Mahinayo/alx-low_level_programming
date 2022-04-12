@@ -8,23 +8,26 @@
  */
 char *create_array(unsigned int size, char c)
 {
-char *s;
-int i;
-size = 0;
-s = (char*) malloc(size * sizeof(char));
-*s = "hello";
-if (size == 0)
-{
-return (NULL);
-}
-else
-if (s == NULL)
-{
-return (NULL);
-}
-for (i = 0 ; i <= size ; ++i)
-{
-s[i] = i + 1;
-}
-return (s);
+	char *arr;
+	unsigned int i;
+
+	if (size == 0)
+	{
+		return (NULL);
+	}
+
+	arr = malloc(sizeof(char) * size);
+
+	/* check if malloc was successful */
+
+	if (arr == NULL)
+		return (NULL);
+
+	for (i = 0; i < size; i++)
+	{
+		arr[i] = c;
+	}
+
+	return (arr);
+
 }

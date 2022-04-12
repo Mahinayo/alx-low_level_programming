@@ -1,9 +1,15 @@
-#include <stdlib.h>
-#include <stdio.h>
+#ifndef DOG_H
+#define DOG_H
 /**
- * main - main
- *
- * Return: 0
+ * dog_t - Typedef ofr struct dog
+ */
+typedef struct dog dog_t;
+/**
+ * struct dog - struct that store information of a god
+ * @name: name
+ * @age: age
+ * @owner: owner
+ * Description: struct dog is that store its name.age and owner 
  */
 struct dog
 {
@@ -11,20 +17,8 @@ char *name;
 float *age;
 char *owner;
 };
-struct dog *my_dog(char *name, float *age, char *owner)
-{
-struct dog *my_dog;
-my_dog = malloc(sizeof(struct dog));
-if (my_dog == NULL);
-return (NULL);
-my_dog->name = name;
-my_dog->age = age;
-my_dog->owner = owner;
-return my_dog;
-}
-int main(void)
-{
-struct dog *my_dog;
-if (dog == NULL)
-return (1);
-}
+void init _dog(struct dog *d, char *name, float *age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+#endif

@@ -3,15 +3,17 @@
 /**
 * print_name - print name
 *@name: name
+*@f: pointer
 *Return: 0
 */
 void print_name(char *name, void (*f)(char *))
 {
-  putchar("%s\n", name);
-}
-int main(void)
-{
-  void (*f)(char *);
-  f = print_name;
- return (0);
+ if (name == NULL || f == NULL)
+ {
+   return;
+ }
+  else
+  {
+    f(name);
+  }
 }

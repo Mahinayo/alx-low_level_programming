@@ -7,7 +7,7 @@
 */
 void print_name(char *name, void (*f)(char *))
 {
-  printf("%s\n", name);
+  putchar("%s\n", name);
 }
 int main()
 {

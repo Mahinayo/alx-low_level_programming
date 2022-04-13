@@ -11,6 +11,6 @@ void print_name(char *name, void (*f)(char *))
 }
 int main()
 {
-  void(*f)(char *);
+  void (*f)(char *);
   f = print_name;
 }

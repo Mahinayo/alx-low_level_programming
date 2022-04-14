@@ -5,7 +5,7 @@
 
 /**
  * print_all - prints anything
- * @format:  variable type
+ * @format: variable type
  * Return: Nothing
 **/
 

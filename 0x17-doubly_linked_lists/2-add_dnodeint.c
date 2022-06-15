@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * add_dnodeint - Add a node in the head of the list
- * @head: Memory of the Head of the linked list
- * @n: Integer data
+ * add_dnodeint - Add a node in the list
+ * @head: Head of the linked list
+ * @n: Integer
  *
- * Return: Head of the list
+ * Return: head
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
